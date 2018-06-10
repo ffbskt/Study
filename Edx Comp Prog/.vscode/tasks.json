@@ -6,7 +6,10 @@
         {
             "label": "echo",
             "type": "shell",
-            "command": "g++ 1.cpp",
+            "command": "g++",
+            "args": [
+                "-g", "1.cpp"
+            ],
             "group": {
                 "kind": "build",
                 "isDefault": true
